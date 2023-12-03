@@ -202,7 +202,6 @@ namespace Calculator
         {
             resultBlock.Text = "";
             char[] digits = outputs.ToCharArray();
-            MessageBox.Show(digits.Length + "");
             try
             {
                 double result = double.Parse(digits[0].ToString());
